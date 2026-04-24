@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace CustomerMaintenance
 {
-    public partial class Form1 : Form
+    public partial class CustomerMaintenance : Form
     {
-        public Form1()
+        public CustomerMaintenance()
         {
             InitializeComponent();
+        }
+
+        private void bindingNavigator1_RefreshItems(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fillByCustomerIDToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fillToolStripButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
